@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+img {
+    width: 200px; /* Ukuran gambar */
+    margin: 5px; /* Mengurangi margin gambar */
+    border-radius: 8px; /* Sudut melengkung */
+}
+.gallery {
+    display: grid; /* Menggunakan grid untuk tata letak */
+    grid-template-columns: repeat(3, 1fr); /* 3 kolom */
+    gap: 5px; /* Mengurangi jarak antar gambar */
+}
